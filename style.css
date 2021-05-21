@@ -1,0 +1,244 @@
+@import url(utilities.css);
+:root{
+
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+body{
+    font-family: poppins;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background-color: var(--dark);
+    clip-path: polygon(0 0,100% 0, 100% 100%, 70% 88%,0 100%);
+    
+}
+.container{
+    max-width: 1125px;
+    padding: 20px 20px;
+    margin: 0 auto;
+}
+.portfolio h2{
+    color: var(--pure);
+
+}
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 3rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+}
+
+header nav{
+    padding: 2rem 0;
+}
+header nav .portfolio{
+    margin-right: 3rem;
+}
+.intro{
+    padding: 0rem 0;
+}
+.left img{
+    width: 400px;
+    height: 500px;
+    margin-top: 50px
+    
+}
+.intro .right{
+    color: var(--pure);
+}
+.intro .right h6{
+    font-size: 1.3rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+
+}
+.intro .right h1{
+    font-size: 2rem;
+    font-weight: 100;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+}
+.intro .right h1 span{
+    color: var(--primary);
+}
+.intro .right p{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+section{
+    padding: 6rem 0;
+}
+section.about .about-me-img{
+    height: 450px;
+    border-radius: 50%;
+    margin-left: 80px;
+}
+section.about h1{
+    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+section.about h1 span{
+    color: var(--primary);
+}
+section.about h3{
+    margin-bottom: 1rem;
+    font: size 1rem; ;
+}
+section.about p{
+    font-family:Alegreya Sans ;
+    line-height: 2rem;
+    color: var(--ternary);
+}
+.section-heading{
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+    color: #0706060;
+    
+    
+}
+.section-heading span{
+    color: var(--primary);
+}
+
+
+
+.section-heading + P{
+    text-align: center;
+    color: var(--ternary);
+    font-family:Alegreya Sans  ;
+    margin-bottom: 2rem;
+}
+section.project{
+    background: var(--light);
+}
+section.project .card-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 3rem;
+}
+section.project .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 3rem;
+    position: relative;
+}
+section.project .card-wrapper .card .img{
+    position: absolute;
+    padding: 50px;
+    
+}
+.card img{
+    width: 200px;px;
+    height: 180px;
+    margin-bottom: 1rem;
+}
+.CV{
+    text-align: center;
+    background: var(--dark)
+
+   
+  
+}
+.CV h1{
+    color: var(--pure);
+    margin-bottom: 2rem;
+    font-size: 100;
+}
+.CV p{
+    color: var(--pure);
+    margin-bottom: 1rem;
+    line-height: 1rem;
+    font-size: 100;
+}
+.btn btn-primary{
+    margin: bottom 2rem;
+}
+section.work{
+    background: var(--light);
+    
+}
+section.work .card-wrapper{
+    display: grid;
+    grid-column-gap: 5rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+footer{
+    background-color: var(--dark);
+    height: auto;
+    width: 100vw;
+    font-family: sans-serif;
+    padding-top: 40px;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    color: var(--light);
+    margin-bottom: 2rem;
+    font-size: 100;
+}
+.footer-content p{
+    color: var(--light);
+    margin-bottom: 1rem;
+
+}
+   .socials {
+       list-style: none;
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+       grid-column-gap: 2rem;
+       justify-content: center;
+       align-items: center;
+       margin: 1rem 0 3rem 0;
+       
+   }
+       .socials li{
+           margin: 0,10px;
+       }
+       .socials a{
+           text-decoration: none;
+           color: var(--pure);
+       }
+       .footer-bottom{
+           background-color:var(--dark);
+           padding: 10px 0;
+           text-align: center;
+           color: var(--pure);
+       }
+
+
+
+
+
+
+
+
+
+
+   
+
+    
+
+
